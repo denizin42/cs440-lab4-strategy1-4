@@ -1,0 +1,13 @@
+CS 440 - Lab 4: Context Engineering Strategies 1 (Write) & 4 (Isolate)
+Group Name: Group 2
+Team Members: David Jablonski, Chris Mills, James Richardson
+
+================================================================================
+1. Context Engineering Repository (Strategies 1 and 4)
+================================================================================
+https://github.com/denizin42/cs440-lab4-strategy1-4
+
+================================================================================
+2. Private Video Presentation Link (Up to 3 Minutes)
+================================================================================
+Video Link: [INSERT PRIVATE YOUTUBE / LOOM LINK OR UPLOAD MP4 ON CANVAS]
