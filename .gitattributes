@@ -1,0 +1,2 @@
+# Shell scripts must keep LF endings so the hook runs under bash on Windows checkouts
+*.sh text eol=lf
