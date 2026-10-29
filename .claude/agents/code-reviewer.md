@@ -10,6 +10,8 @@ model: sonnet
 ## Strict Context Scope (Context Filter)
 You receive **ONLY** the code diff (`git diff`) and security/encapsulation rules. Full orchestrator conversation history is filtered out to prevent **Context Confusion**.
 
+> **Diff Delivery**: This sub-agent has no shell access and cannot run `git diff` itself. The orchestrator MUST paste the diff into the delegation prompt. Use `Read`/`Grep`/`Glob` only to inspect surrounding code referenced by the diff.
+
 ## Review Checklist
 1. **Model-Free $T$ and $R$ Isolation**:
    - Ensure the Q-learning agent never accesses hidden environment transition probabilities $T(s,a,s')$ or reward tables $R(s,a,s')$.
